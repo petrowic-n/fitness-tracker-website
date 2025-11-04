@@ -11,11 +11,13 @@ const mobileNav = () => {
     isMobileNavOpen = !isMobileNavOpen;
     if (isMobileNavOpen) {
       mobileNav.style.top = "0";
+      document.body.style.overflowY = "hidden";
     }
   });
 
   closeBtn.addEventListener("click", () => {
     mobileNav.style.top = "-100%";
+    document.body.style.overflowY = "auto";
   });
 
   mobileLinks.forEach((link) => {
