@@ -24,10 +24,27 @@
   padding-right: 0.5rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: var(--size-8xl);
+  font-weight: 500;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
+  }
+
+  h1 {
+    font-size: var(--size-6xl);
   }
 }
 
@@ -42,6 +59,10 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  h1 {
+    font-size: var(--size-7xl);
   }
 }
 
