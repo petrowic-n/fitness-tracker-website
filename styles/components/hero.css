@@ -99,6 +99,10 @@
     font-size: var(--size-sm);
 }
 
+.hero h1  {
+    display: flex;
+}
+
 @media (max-width: 475px) {
   .container {
     max-width: 475px;
