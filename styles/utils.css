@@ -34,6 +34,20 @@
   border: 1px solid var(--color-white);
 }
 
+.button-uni {
+  background-color: var(--color-green);
+  font-family: var(--font-family-text);
+  font-size: var(--size-lg);
+  color: var(--color-black);
+  font-weight: 600;
+  padding: 1.188rem 3.375rem;
+  border-radius: var(--size-xxs);
+}
+
+.section-gap {
+  padding-top: 3.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -48,6 +62,15 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: var(--size-4xl);
+  font-weight: 400;
+}
+
+p {
+  color: var(--color-white-text);
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -56,6 +79,9 @@ h1 {
 
   h1 {
     font-size: var(--size-6xl);
+  }
+  h2 {
+    font-size: var(--size-5xl);
   }
 }
 
@@ -85,6 +111,10 @@ h1 {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+  }
+
+  .section-gap {
+    padding-top: 6rem;
   }
 }
 
