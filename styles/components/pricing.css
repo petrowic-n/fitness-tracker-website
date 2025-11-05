@@ -1,0 +1,141 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    width: 100%;
+    margin-top: 6.25rem;
+    padding: 0rem 0.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.pricing-top {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-lg);
+}
+
+.pricing-top h1 {
+    text-align: start;
+}
+
+.pricing-top p {
+    text-align: start;
+}
+
+.pricing-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3xl);
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray-200);
+    border-radius: 0.5rem;
+    padding: 1.8rem 1.5rem;
+    /* padding: 1.875rem 2.5rem; */
+    align-items: start;
+    max-width: 450px;
+    width: 100%;
+}
+
+.plan p {
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.plan-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.938rem;
+    width: 100%;
+}
+
+.plan-one span {
+    color: var(--color-green);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.plan-two {
+    display: flex;
+    background-color: var(--color-gray-100);
+    padding: 0.938rem 0rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.875rem;
+}
+
+.plan-three {
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+    align-items: start;
+    margin-bottom: 3.125rem;
+}
+
+.fill {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.plan a {
+    padding: 1.188rem 0rem;
+    width: 100%;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+
+  h1 {
+    font-size: var(--size-6xl);
+  }
+
+  .plan {
+     padding: 1.875rem 2.5rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .pricing-top h1 {
+    text-align: center;
+  }
+
+  .pricing-top p {
+    text-align: center;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .pricing-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
