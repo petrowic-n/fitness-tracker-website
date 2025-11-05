@@ -1,0 +1,132 @@
+.why {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    width: 100%;
+    margin-top: 6.25rem;
+    gap: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.why-top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.why-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: var(--size-xl);
+}
+
+.why-top-left h2 {
+    text-align: start;
+}
+
+.why-top-left p {
+    max-width: 364px;
+    text-align: start;
+}
+
+.why-top-right {
+    display: flex;
+    margin-top: var(--size-2xl);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.why-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3xl);
+    padding: 0rem 0.5rem;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    max-width: 28rem;
+    gap: 2.5rem;
+    align-items: start;
+    background-color: var(--color-black-100);
+    border-radius: var(--size-xxs);
+    padding: 1.5rem;
+}
+
+.tab h2 {
+  font-weight: 400;
+}
+
+.tab .tab-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-lg);
+    text-align: start;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+
+  h1 {
+    font-size: var(--size-6xl);
+  }
+
+  .why-top {
+    align-items: center;
+  }
+
+  .why-top-left p {
+    text-align: center;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .why-bottom {
+    align-items: center;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .why-top {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 3.5rem;
+  }
+
+  .why-top-left p {
+    text-align: start;
+  }
+
+  .why-top-right {
+    display: contents;
+  }
+
+  .why-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 calc(33.333% - 16px);
+    align-items: stretch;
+  }
+}
