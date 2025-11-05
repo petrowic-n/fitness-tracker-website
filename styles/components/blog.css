@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 2rem;
+  align-items: center;
 }
 
 .blog__col-1 {
@@ -81,8 +82,8 @@
   }
 
   .blog__col-content-wrapper img {
-    width: 230px;
-    height: 120px;
+    width: 300px;
+    height: auto;
   }
 }
 
