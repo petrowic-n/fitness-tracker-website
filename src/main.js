@@ -8,6 +8,7 @@ import "../styles/components/blog.css";
 import "../styles/components/why.css";
 import "../styles/components/pricing.css";
 import "../styles/components/testimonial.css";
+import "../styles/components/contact.css";
 import "../styles/components/footer.css";
 import "../styles/utils.css";
 
