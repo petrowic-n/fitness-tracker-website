@@ -1,15 +1,3 @@
-.button-uni {
-  background-color: var(--color-green);
-  font-family: var(--font-family-text);
-  font-size: var(--size-lg);
-  color: var(--color-black);
-  font-weight: 600;
-  padding: 1.188rem 3.375rem;
-  border-radius: var(--size-xxs);
-  align-items: center;
-  justify-content: center;
-}
-
 .hero {
   display: flex;
   position: relative;
