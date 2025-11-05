@@ -14,6 +14,7 @@
   --color-gray-100: rgb(43, 43, 43);
   --color-gray-200: rgb(29, 29, 29);
   --color-green: rgb(230, 255, 0);
+  --gradient: linear-gradient(var(--color-black) 100%, var(--color-black) 90%, var(--color-black) 100%)
 
   /* sizes */
   --size-xxs: 0.5rem;
